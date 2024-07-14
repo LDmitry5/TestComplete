@@ -1,0 +1,99 @@
+.noUi-target {
+  background: #30303d;
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  height: 4px;
+}
+
+.noUi-connect {
+  background: #7acb22;
+}
+
+.noUi-handle::after,
+.noUi-handle::before {
+  display: none;
+}
+
+.noUi-handle {
+  box-shadow: none;
+  width: 16px;
+  height: 16px;
+  background: #7acb22;
+  border: none;
+  border-radius: 100%;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 16px;
+  height: 16px;
+  right: -10px;
+}
+
+.noUi-horizontal .noUi-handle-upper {
+  right: 0;
+}
+
+.noUi-horizontal .noUi-handle-lower {
+  right: -16px;
+}
+
+.noUi-connect {
+  border-radius: 3px;
+}
+
+.noUi-tooltip {
+  background: #30303d;
+  border: none;
+  color: #ffffff;
+}
+
+.noUi-tooltip::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid;
+  border-color: #30303d transparent transparent transparent;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+}
+
+.noUi-horizontal .noUi-tooltip {
+  bottom: 180%;
+  padding: 2px 5px;
+}
+
+.newFilterResult {
+  background: rgba(41, 112, 25, 1);
+  height: 28px;
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 400;
+  font-size: 12px;
+  border-radius: 20px;
+  margin-right: 10px;
+  padding: 5px 8px;
+  box-sizing: border-box;
+}
+
+.close {
+  background-image: url(../icons/close.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: flex;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.nose-bgr {
+  background: transparent;
+  height: 26px;
+  background-image: url(../icons/Шкала.svg);
+  background-repeat: no-repeat;
+  border-radius: 0;
+}
